@@ -1,0 +1,81 @@
+Here are some commonly used Git commands with examples:
+
+1. git init
+   - Example: git init
+   - Initializes a new Git repository in the current directory.
+
+2. git clone <repository>
+   - Example: git clone https://github.com/username/repository.git
+   - Creates a local copy of a remote repository on your machine.
+
+3. git add <file>
+   - Example: git add myfile.txt
+   - Stages a file named "myfile.txt" to be included in the next commit.
+
+4. git commit -m "<message>"
+   - Example: git commit -m "Add new feature"
+   - Records the changes made to the staged files and creates a new commit with the message "Add new feature".
+
+5. git status
+   - Example: git status
+   - Shows the current status of the repository, including any modified, staged, or untracked files.
+
+6. git push
+   - Example: git push origin main
+   - Uploads your local commits to the remote repository branch named "main".
+
+7. git pull
+   - Example: git pull origin main
+   - Fetches and merges the latest changes from the remote repository branch named "main" into your local branch.
+
+8. git branch
+   - Example: git branch
+   - Lists all the branches in your repository. The branch with an asterisk (*) indicates the current branch.
+
+9. git checkout <branch>
+   - Example: git checkout development
+   - Switches to the "development" branch, allowing you to work on a different version of the project.
+
+10. git merge <branch>
+    - Example: git merge feature-branch
+    - Combines changes from the "feature-branch" into the current branch.
+
+11. git log
+    - Example: git log
+    - Displays a history of commits, showing the commit hash, author, date, and commit message.
+
+12. git remote add <name> <url>
+    - Example: git remote add origin https://github.com/username/repository.git
+    - Links your local repository with a remote repository named "origin" using the provided URL.
+
+13. git remote -v
+    - Example: git remote -v
+    - Lists the configured remote repositories and their associated URLs.
+
+14. git diff
+    - Example: git diff myfile.txt
+    - Shows the difference between the changes in your working directory for "myfile.txt" and the previously committed version.
+
+15. git reset <file>
+    - Example: git reset myfile.txt
+    - Unstages a file named "myfile.txt", removing it from the staging area.
+
+16. git clean
+    - Example: git clean -f
+    - Removes untracked files from the working directory. It is useful when you want to clean up your project and remove unwanted files.
+
+17. git config
+    - Example: git config --global user.name "John Doe"
+    - Sets or retrieves configuration options for Git. With the --global flag, it sets the user's name globally, allowing you to specify the author information for your commits.
+
+18. git rm
+    - Example: git rm myfile.txt
+    - Removes a file from both the working directory and the Git repository. It stages the file for deletion, and you need to commit the change to complete the removal.
+
+19. git fetch
+    - Example: git fetch
+    - Retrieves the latest changes from the remote repository without automatically merging them into your local branch. It updates your local tracking branches to reflect the state of the remote repository.
+
+20. git reset <file>
+    - Example: git reset myfile.txt
+    - Unstages a file named "myfile.txt" from the staging area. It removes the file from the list of files to be included in the next commit.
